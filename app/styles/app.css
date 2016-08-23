@@ -1,0 +1,31 @@
+body {
+  background-color: #ECF0F1;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: #F05A26;
+}
+
+.navbar-default h1 {
+  color: white;
+  display: block;
+  font-family: 'BioRhyme', serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.btn {
+  background-color: #F05A26;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #a7320c;
+  color: white;
+}
