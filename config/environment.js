@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCc4wq9pvszYlG-vOopWkpFJAHWsRO4ezo",
+      authDomain: "help-queue-53238.firebaseapp.com",
+      databaseURL: "https://help-queue-53238.firebaseio.com",
+      storageBucket: "help-queue-53238.appspot.com"
+    },
     modulePrefix: 'help-queue',
     environment: environment,
     baseURL: '/',

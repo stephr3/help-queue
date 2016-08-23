@@ -17,6 +17,9 @@ export default Ember.Component.extend({
     newIssue() {
       this.set('thirdQuestion', false);
       this.set('newIssue', true);
+    },
+    save(params) {
+      this.sendAction('save', params);
     }
   }
 });
