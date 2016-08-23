@@ -33,3 +33,22 @@ body {
 form {
   text-align: left;
 }
+
+.row {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  height: 90px;
+  padding: 5px;
+}
+
+.row:first-of-type {
+  margin-top: 70px;
+}
+
+.light {
+  color: gray;
+}
+
+.left {
+  text-align: left;
+}

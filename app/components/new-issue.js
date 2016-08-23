@@ -6,7 +6,8 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         location: this.get('location'),
-        description: this.get('description')
+        description: this.get('description'),
+        timestamp: Date.now()
       }
       this.sendAction('save', params);
     }
