@@ -1,10 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+
   actions: {
-    delete(model) {
-      model.destroyRecord();
-      this.transitionTo('index');
+    delete(issue) {
+      var issue_id = issue.id;
+      issue.destroyRecord();
+      this.transitionTo('issue', issue_id);
     }
   }
 });
