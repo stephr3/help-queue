@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     save(params) {
       var newIssue = this.store.createRecord('issue', params);
       newIssue.save();
-      this.transitionTo('index');
+      this.transitionTo('issue', newIssue.id);
     }
   }
 });
