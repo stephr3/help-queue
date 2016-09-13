@@ -1,7 +1,15 @@
-# Help-queue
+# Help Queue
+## By Stephanie Gurung
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A clone of the Epicodus Help Queue
+
+## Technologies Used
+
+* EmberJS<br>
+* TypeScript<br>
+* Node JS<br>
+* Bower<br>
+* Bootstrap
 
 ## Prerequisites
 
@@ -51,3 +59,8 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+###  License
+
+  _This software is licensed under the MIT license._<br><br>
+  Copyright (c) 2016 **Stephanie Gurung**
